@@ -1,12 +1,3 @@
-/**
- * Em uma grande escola, o diretor pediu ao departamento de TI
- * para que ele criasse um programa que, dada algumas turmas,
- * o algoritmo separesse os alunos e os distribuísse de forma que
- * as turmas tivessem alunos os mais separados possíveis,
- * isto é, se fosse dada três turmas, e na turma 'A' tivesse três Joãos,
- * então, cada João ficaria separado em turmas diferentes.
- */
-
 //Entrada das turmas:
 const turmas = {
   turma_a: [
