@@ -34,7 +34,7 @@ const turmas = {
 let turmaTmp = [],
   turmasDistribuidasCorretamente = [];
 
-const ALFABETO = ['a', 'b', 'c', 'd', 'e', 'f'];
+const ALFABETO = 'abcdefghijklmnopqrstuvwxyz';
 
 //A primeira coisa a se fazer é unir todos os alunos numa turma temporária
 Object.values(turmas).map((el, i) => {
