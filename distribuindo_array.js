@@ -1,3 +1,4 @@
+//Antigo, mas funciona também
 const turmas = [
   [{ nome: 'João Eduardo' }, { nome: 'João Carlos' }, { nome: 'Tiago André Moreira' }, { nome: 'João Emanuel' }],
   [
@@ -46,3 +47,20 @@ turmaTmp.forEach((el, index) => {
 });
 
 console.log(myVar);
+
+
+/*
+
+ let ALFABETO = [...'abcdefghijklmnopqrstuvwxyz'];
+//Math.ceil(quantidadeDeTurmas / 26); 26 é a quantidade de letras do alfabeto
+for (let i = 1; i < Math.ceil(quantidadeDeTurmas / 26) + 1; i++) {
+    alf.push(ALFABETO.map(el => el + `_${i}`));
+}
+
+ALFABETO = []; //Zera o array acima.
+
+Object.values(alf).map(arrLetter => {
+    arrLetter.forEach(letter => {
+        ALFABETO.push(letter);
+    });
+});*/
